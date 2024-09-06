@@ -1,8 +1,8 @@
 import 'package:get_server/get_server.dart';
 
-import '../controllers/home_controller.dart';
+import '../controllers/payment_controller.dart';
 
-class HomeView extends GetView<HomeController> {
+class PaymentView extends GetView<PaymentController> {
   @override
   Widget build(BuildContext context) {
     return  Text('GetX to Server is working!');

@@ -1,8 +1,8 @@
 import 'package:get_server/get_server.dart';
 
-import '../controllers/home_controller.dart';
+import '../controllers/lives_controller.dart';
 
-class HomeView extends GetView<HomeController> {
+class LivesView extends GetView<LivesController> {
   @override
   Widget build(BuildContext context) {
     return  Text('GetX to Server is working!');
